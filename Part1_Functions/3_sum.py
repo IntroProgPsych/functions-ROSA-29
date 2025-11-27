@@ -3,3 +3,8 @@
 # Ask the user for two numbers (as input), convert them to integers, call the function, and print the result.
     
 # Write your code here:
+a=int(input("Enter first number: "))
+b=int(input("Enter second number: "))
+def add(a,b):
+    return a+b
+print("The sum is:",add(a,b))
