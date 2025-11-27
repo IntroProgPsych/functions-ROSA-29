@@ -10,3 +10,10 @@
 # Output: 25
 
 # Write your code here:
+
+number=int(input("Input: "))
+def greet(n):
+    return n*n
+result=greet(number)
+print("Output:",greet(number))
+
